@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:id="@+id/teks_viu_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="List Data"
+            android:layout_weight="1"
+            android:textColor="@color/colorPutih"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/tbl_hapus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delete"
+                android:padding="5dp"
+                android:background="@color/colorRed"/>
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp">
+            </View>
+            <ImageButton
+                android:id="@+id/tbl_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                android:padding="5dp"
+                android:background="#283593"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

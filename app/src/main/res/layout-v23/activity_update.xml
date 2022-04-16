@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content"
+    tools:context=".menu_input">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:layout_marginBottom="356dp"
+        android:background="@drawable/bg_card_info"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text=" FORMULIR EDIT DATA OBAT"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kode obat" />
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tulis disni..."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama obat" />
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tulis disni..."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah" />
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tulis disni..."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga" />
+
+        <EditText
+            android:id="@+id/input4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tulis disni..."
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil yang akan ditampilkan " />
+
+        <EditText
+            android:id="@+id/input5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="update akan muncul disini"
+            android:textAlignment="center" />
+        <EditText
+            android:id="@+id/input6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="update akan muncul disini"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/tblUpdate"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_form_btn"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/UpdateData"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="357dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
