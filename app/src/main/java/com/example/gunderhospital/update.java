@@ -41,7 +41,7 @@ public class update extends AppCompatActivity {
                 Input6.setText(Input2.getText().toString());
 
                 boolean haselE = db.updateData(Input2.getText().toString(),Input1.getText().toString());
-                if (haselE == true ) {
+                if (haselE) {
                     Toast.makeText(update.this, "Update Berhasil", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(update.this, "Update Gagal !", Toast.LENGTH_SHORT).show();
